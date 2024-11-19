@@ -28,7 +28,7 @@ try:
     os.mkdir(path+"\\Documents\\Library Database")
 except FileExistsError:
     pass
-con = sqlite3.connect(path+"\\Documents\\Library Database\mydatabase.db")
+con = sqlite3.connect(path+"\\Documents\\Library Database\\mydatabase.db")
 cur = con.cursor()
 #Creating Tables
 con.execute("create table if not exists empdetail   (empid varchar(20) primary key,name varchar(30),password varchar(30));")
