@@ -1,8 +1,5 @@
 # Library Management System
 
-![Library Management System Screenshot](https://files.codingninjas.in/article_images/custom-upload-1681454804.webp)  
-
-
 ## Overview
 
 This is a simple yet comprehensive Library Management System designed to automate the operations of a library. It allows administrators to manage books, users, and transactions (borrowing/returning books), while users can search for books and check their borrowing history. The system aims to streamline library workflows, reduce manual errors, and improve efficiency.
