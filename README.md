@@ -5,27 +5,6 @@ This application allows **Admin Staff** and **Students** to manage library opera
 
 ---
 
-## ✨ Features
-- 🔑 **User Authentication**
-  - Admin Staff and Student registration & login
-- 📖 **Book Management**
-  - Add new books
-  - Delete books
-  - View all books
-  - Search books by subject
-- 📦 **Issue/Return System**
-  - Issue books to students
-  - Return books to library
-  - Track issued books
-- 🖥️ **GUI Interface**
-  - Built with Tkinter
-  - Simple and intuitive navigation
-- 💾 **Persistent Storage**
-  - SQLite database stored locally
-  - Auto‑creation of required tables
-
----
-
 ## 🗄️ Database Schema
 The system uses **SQLite** with the following tables:
 
@@ -55,3 +34,49 @@ cd Library-Management-System
 
 # Run the application
 python LMS.py
+
+
+### 🚀 Usage
+- ▶️ **Launch the application**
+  - Run the program using:
+    ```bash
+    python LMS.py
+    ```
+- 📝 **Register**
+  - Sign up as **Admin Staff** or **Student**.
+- 🔑 **Login**
+  - Enter your credentials to access the system.
+- 📚 **Library Operations**
+  - Add/Delete/Search/View books  
+  - Issue or Return books  
+  - View issued book records
+- 🚪 **Logout**
+  - End your session securely when finished.
+
+
+## 📂 Project Structure
+Library-Management-System/
+│
+├── LMS.py              # Main application file
+├── README.md           # Project documentation
+└── Library Database/   # Auto-created folder for SQLite DB
+
+---
+
+## 🧑‍💻 Author
+- CodeX0610
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!
+  - Fork the repository
+  - Create a new branch (feature-xyz)
+  - Commit your changes
+  - Open a Pull Request
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this software with attribution.
