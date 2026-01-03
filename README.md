@@ -34,9 +34,10 @@ cd Library-Management-System
 
 # Run the application
 python LMS.py
+```
+---
 
-
-### 🚀 Usage
+## 🚀 Usage
 - ▶️ **Launch the application**
   - Run the program using:
     ```bash
@@ -52,14 +53,6 @@ python LMS.py
   - View issued book records
 - 🚪 **Logout**
   - End your session securely when finished.
-
-
-## 📂 Project Structure
-Library-Management-System/
-│
-├── LMS.py              # Main application file
-├── README.md           # Project documentation
-└── Library Database/   # Auto-created folder for SQLite DB
 
 ---
 
@@ -80,3 +73,5 @@ Contributions are welcome!
 ## 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this software with attribution.
+
+---
